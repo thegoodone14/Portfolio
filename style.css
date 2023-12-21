@@ -301,3 +301,63 @@ iframe {
     background-color: #2980b9;
 }
 
+/* Nouvelle mise en page */
+.new-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Ajustements pour la section Projets */
+.projets {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #ecf0f1;
+}
+
+.project-box {
+    width: 45%; /* Ajuste la largeur pour placer deux boîtes par ligne */
+    margin: 0 2.5%; /* Ajoute une marge entre les boîtes */
+}
+
+.projets .section-title {
+    margin-bottom: 40px;
+}
+/* Harmonisation des sections */
+.harmonized-section {
+    padding: 80px 10%;
+    text-align: center;
+    background-color: #ecf0f1; /* Vous pouvez ajuster la couleur de fond selon vos préférences */
+}
+
+.harmonized-section h2.section-title {
+    margin-bottom: 40px;
+}
+
+.harmonized-section form {
+    max-width: 800px; /* Ajustez la largeur du formulaire selon vos préférences */
+    margin: 0 auto;
+}
+
+.harmonized-section form label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.harmonized-section form input,
+.harmonized-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.harmonized-section form input[type="submit"] {
+    background-color: #3498db; /* Couleur du bouton Envoyer */
+    color: #fff; /* Couleur du texte du bouton */
+    cursor: pointer;
+}
+.h{
+color: #3498db;
+font-size: 2.5rem; /* Taille du titre */
+margin-bottom: 40px; /* Ajoute un espace en bas du titre */}
