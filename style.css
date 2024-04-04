@@ -371,7 +371,43 @@ margin-bottom: 40px; /* Ajoute un espace en bas du titre */}
     align-items: center;
     padding: 5px 10%;
 }
+.veille-technologique {
+    
+    margin: 5px auto;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+}
 
+.veille-technologique h1, 
+.veille-technologique h2 {
+    color: #3498db;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+.veille-technologique p,
+.veille-technologique ul {
+    margin-bottom: 5px;
+}
+
+.veille-technologique ul {
+    padding-left: 3px;
+}
+
+.veille-technologique li {
+    list-style-type: disc;
+}
+
+.veille-technologique a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.veille-technologique a:hover {
+    text-decoration: underline;
+}
 
 
 
