@@ -29,6 +29,9 @@ header {
     align-items: center;
     z-index: 100;
 }
+.presentation, .facts {
+    padding-top: 100px; /* Ajustez cette valeur si nécessaire */
+}
 
 .logo {
     font-size: 25px;
