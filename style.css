@@ -369,21 +369,15 @@ margin-bottom: 40px; /* Ajoute un espace en bas du titre */}
 .experience-stage {
     height: 100vh;
     align-items: center;
-    padding: 0 10%;
-}
-.experience-stage h3 {
-    font-size: 32px;
-    font-weight: 700;
-    color: #3498db;
-    max-width: 315px;
+    padding: 5px 10%;
 }
 
-.experience-stage p {
-    max-width: 600px;
-}
+
+
+
 
 .experience-stage h1 {
-    max-width: 700px;
+    color: #3498db;
     font-size: 56px;
     font-weight: 700;
 }
